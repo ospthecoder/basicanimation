@@ -1,0 +1,23 @@
+/* A C Program written by Om Satyawan Pathak */
+
+#include<stdio.h>
+#include<conio.h>
+#include<graphics.h>
+void main()
+{
+        int driver = DETECT , mode = 0,i,j=10;
+        initgraph(&driver,&mode,"C:\\tc");
+        clrscr();
+        for(i=1;i<100;i++)
+        {
+           while(j--)
+           {
+                   setcolor(j);
+                   circle(100,100,50);
+                   sleep(1);
+                   outtextxy(350,300,"Hello Everyone");
+           }
+        }
+        getch();
+        closegraph();
+}
