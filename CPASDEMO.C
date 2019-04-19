@@ -1,5 +1,5 @@
 
-/* Copyright (c) 1987,88 by Borland International, Inc.
+/* Copyright (c) 1987,88 by Om Satyawan Pathak.
 
    This module demonstrates how to write Turbo C routines that
    can be linked into a Turbo Pascal program. Routines in this
